@@ -1,4 +1,4 @@
-### Program to monitor 2 sump pumps ###
+# Program to monitor 2 sump pumps
 #### The objective ####
 This program is to monitor two pumps, ** pumpW ** & ** pumpE **. Each pump operates independently. Each pump has a float switch which is triggered when the water level in the sump reaches a certain predetermined upper level. When the switch triggers it sends a 12 volt signal to an optocoupler isolation board. This board then forwards a 3.3 volt signal to the Raspbery Pi sending one of the GPIO pins 'High' when the pump cycle finishes the float switch drops below the lower threshold level and cuts off the 12 volt signal and ultimately removes the 3.3 volt signal.
 
